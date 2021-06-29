@@ -3,25 +3,23 @@ package edunova.zadaci;
 import javax.swing.JOptionPane;
 
 public class Zatadak05 {
-	
-	
-	
+
 	// Kreirajte metodu primBroj tipa boolean koja za primljeni
-	// cijeli broj vraæa true ako je prim ili false ako nije 
+	// cijeli broj vraæa true ako je prim ili false ako nije
 	// prim broj
-	
-	private static boolean primBroj (int cijeliBroj) {
+
+	private static boolean primBroj(int cijeliBroj) {
 		boolean rezultat = false;
-		if(!(cijeliBroj %2 == 0) && cijeliBroj >2) {
+		if (!(cijeliBroj % 2 == 0) && cijeliBroj > 2) {
 			rezultat = true;
-			return rezultat;	
-		} else if(cijeliBroj ==2) {
+			return rezultat;
+		} else if (cijeliBroj == 2) {
 			rezultat = true;
 			return rezultat;
 		} else {
 			return rezultat;
 		}
-		
+
 	}
 
 	public static void main(String[] args) {
